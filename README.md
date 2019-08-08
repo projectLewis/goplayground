@@ -1,2 +1,3 @@
 # goplayground
-random go stuff
+
+Practicing Go Concepts
