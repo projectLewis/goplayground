@@ -4,6 +4,15 @@ import "fmt"
 
 func main() {
 	for day := 1; day <= 12; day++ {
+		if day == 1 {
+			fmt.Print("On the ", day, "st day of Christmas my true love sent to me: ")
+		} else if day == 2 {
+			fmt.Print("On the ", day, "nd day of Christmas my true love sent to me: ")
+		} else if day == 3 {
+			fmt.Print("On the ", day, "rd day of Christmas my true love sent to me: ")
+		} else {
+			fmt.Print("On the ", day, "th day of Christmas my true love sent to me: ")
+		}
 		switch day {
 		case 12:
 			fmt.Println("12 Drummers Drumming")
