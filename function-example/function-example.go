@@ -2,14 +2,13 @@ package main
 
 import "fmt"
 
-func max(i int, j int) {
+func max(i int, j int) int {
 	if i > j {
-		fmt.Println(i)
-	} else {
-		fmt.Println(j)
+		return i
 	}
+	return j
 }
 
 func main() {
-	max(15, 10)
+	fmt.Println(max(15, 10))
 }
